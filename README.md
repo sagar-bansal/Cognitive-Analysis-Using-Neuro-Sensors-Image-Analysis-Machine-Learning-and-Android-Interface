@@ -3,6 +3,10 @@ Classroom Cognitive Analysis Using Neuro sensors/ Emotion Recognition
 
 
 Abstract
+
+
+
+
 This models presents designing an apparatus to record EEG waveform and then compare it to
 pre-recorded reading of different mind states using Arduino brain library and Processing IDE to
 obtain the result as the emotion of the student. In the proposed method that obtains EEG
@@ -14,13 +18,25 @@ along with the data from the waveform to find out the condition of the student a
 time.
 It doesn’t use any guess work and hence results obtained are reliable and required actions can be
 taken on basis of that.
+
+
 Motivation
+
+
+
+
 In a classroom during teaching studying period, there is a need of analyzing the basic level of
 student understanding in order to improve the teaching method for better teaching experience in
 class. This model is required so that concentration level of student’s can be monitored in a
 systematic manner and after analyzing the “concentration level” proper steps can be taken to
 improve it accordingly.
+
+
+
 Introduction
+
+
+
 The education of students plays a vital role in development of society and so, student learning
 experience is a big area of interest. Proper learning or capturing of subjects taught in a class is
 majorly based on the states of brain and how students understands the concept taught. There are
@@ -36,8 +52,14 @@ We will be building an emotion classifier of a person using a Convolutional Neur
 python using Tensorflow and Keras as the backend architectures. A model is trained using
 30,000+ tuples present in the dataset. The accuracy of the classifier is around 67%. We will be
 using the haar cascade face detection file for initial face detection.
+
+
 Related Work
+
+
+
 Emotion recognition by speech
+
 Several approaches to recognize emotions from speech have been reported. Most researchers
 have used global suprasegmentally/prosodic features as their acoustic cues for emotion
 recognition, in which utterance-level statistics are calculated. For example, mean, standard
@@ -49,7 +71,10 @@ The main limitation of those global-level acoustic features is that they cannot 
 dynamic variation along an utterance. To address this, for example, dynamic variation in emotion
 in speech can be traced in spectral changes at a local segmental level, using short-term spectral
 features
+
 Emotion recognition by facial expressions
+
+
 Facial expressions give important clues about emotions. Therefore, several approaches have been
 proposed to classify human affective states. The features used are typically based on local spatial 
 position or displacement of specific points and regions of the face, unlike the approaches based
@@ -61,7 +86,11 @@ of 80% with four emotions: happiness, anger, disgust and surprise. Yacoob et al.
 similar method [22]. Instead of using facial muscle actions, they built a dictionary to convert
 motions associated with edge of the mouth, eyes and eyebrows, into a linguistic, perframe, midlevel representation. They classified the six basic emotions by the use of a rule-based system
 with 88% of accuracy.
+
+
 Emotion recognition by bimodal data
+
+
 Relatively few efforts have focused on implementing emotion recognition systems using both
 facial expressions and acoustic information. De Silva et al. proposed a rule-based audio-visual
 emotion recognition system, in which the outputs of the unimodal classifiers are fused at the
